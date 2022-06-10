@@ -12,6 +12,8 @@ Now supports:
 * macos-x64
 * macos-arm64
 
+The binary files you may want to download is in [Actions](./actions).
+
 ## CN
 
 [TTVDropBot](https://github.com/Zaarrg/TTVDropBot) 在各系统和架构下的构建。
@@ -23,6 +25,8 @@ Now supports:
 * win-arm64
 * macos-x64
 * macos-arm64
+
+构建好的二进制文件在 [Actions](./actions) 中下载。
 
 ### 小提示
 
