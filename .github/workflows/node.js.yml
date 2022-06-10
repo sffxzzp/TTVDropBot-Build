@@ -45,6 +45,7 @@ jobs:
           npm ci --production
           npm cache clean --force
           npm install
+          npm run build
           export NODE_ENV=production
       - name: Package and upload
         uses: lando/pkg-action@v2
