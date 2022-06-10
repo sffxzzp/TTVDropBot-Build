@@ -12,7 +12,7 @@ Now supports:
 * macos-x64
 * macos-arm64
 
-The binary files you may want to download is in [Actions](./actions).
+The binary files you may want to download is in [Actions](../../actions).
 
 ## CN
 
@@ -26,7 +26,7 @@ The binary files you may want to download is in [Actions](./actions).
 * macos-x64
 * macos-arm64
 
-构建好的二进制文件在 [Actions](./actions) 中下载。
+构建好的二进制文件在 [Actions](../../actions) 中下载。
 
 ### 小提示
 
