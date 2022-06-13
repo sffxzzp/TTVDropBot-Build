@@ -12,7 +12,7 @@ Now supports:
 * macos-x64
 * macos-arm64
 
-The binary files you may want to download is in [Here](https://nightly.link/sffxzzp/TTVDropBot-Build/actions/runs/2475861837).
+The binary files you may want to download is in [Here](https://nightly.link/sffxzzp/TTVDropBot-Build/actions/runs/2485550057).
 
 ## CN
 
@@ -26,7 +26,7 @@ The binary files you may want to download is in [Here](https://nightly.link/sffx
 * macos-x64
 * macos-arm64
 
-构建好的二进制文件在 [这里](https://nightly.link/sffxzzp/TTVDropBot-Build/actions/runs/2475861837) 下载。
+构建好的二进制文件在 [这里](https://nightly.link/sffxzzp/TTVDropBot-Build/actions/runs/2485550057) 下载。
 
 ### 小提示
 
