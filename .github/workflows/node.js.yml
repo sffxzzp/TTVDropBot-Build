@@ -19,13 +19,6 @@ jobs:
         node-version: [node16]
         arch: [x64, arm64]
         os: [linux, macos, win]
-        include:
-          - node-version: node16
-            os: linux
-            arch: armv6
-          - node-version: node16
-            os: linux
-            arch: armv7
     steps:
       - name: Setup
         run: |
