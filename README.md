@@ -46,3 +46,14 @@ Linux 及 MacOS 下可以建立 .sh 脚本，并使用 sh 启动（可能需要�
 export NODE_TLS_REJECT_UNAUTHORIZED=0
 ./ttvdropbot-v2
 ```
+
+带判断的用法，可以切换 displayless 模式
+``` shell
+export NODE_TLS_REJECT_UNAUTHORIZED=0
+if [ $1 ]; then
+	export ttvdropbot_displayless=true
+	export ttvdropbot_games="Warframe"
+	export ttvdropbot_autoclaim=true
+fi
+./ttvdropbot
+```
