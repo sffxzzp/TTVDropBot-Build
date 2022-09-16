@@ -28,7 +28,6 @@ jobs:
       - name: Checkout source repo
         uses: actions/checkout@v3
         with:
-          ref: 2.0.0.3
           repository: 'Zaarrg/TTVDropBot'
       - name: Setup Node.js
         uses: actions/setup-node@v3
