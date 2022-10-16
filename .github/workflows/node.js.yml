@@ -36,6 +36,7 @@ jobs:
           cache: 'npm'
       - name: Build
         run: |
+          sed -i 's/await checkisClaimeable/\/\/await checkisClaimeable/g' src/Checks/pointsCheck.ts
           npm ci --production
           npm cache clean --force
           npm install
