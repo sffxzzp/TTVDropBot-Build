@@ -28,7 +28,8 @@ jobs:
       - name: Checkout source repo
         uses: actions/checkout@v3
         with:
-          repository: 'Zaarrg/TTVDropBot'
+          # repository: 'Zaarrg/TTVDropBot'
+          repository: 'cyberofficial/TTVDropBot'
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
@@ -36,7 +37,6 @@ jobs:
           cache: 'npm'
       - name: Build
         run: |
-          sed -i 's/await checkisClaimeable/\/\/await checkisClaimeable/g' src/Checks/pointsCheck.ts
           npm ci --production
           npm cache clean --force
           npm install
