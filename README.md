@@ -40,6 +40,19 @@ set NODE_TLS_REJECT_UNAUTHORIZED=0
 ttvdropbot-v2.exe
 ```
 
+自动重启版
+``` batch
+@echo off
+:start
+set NODE_TLS_REJECT_UNAUTHORIZED=0
+set ttvdropbot_displayless=true
+set ttvdropbot_games="Warframe Tom_Clancy's_Rainbow_Six_Siege Don't_Starve_Together Humankind Roller_Champions PAYDAY_2 The_Elder_Scrolls_Online Gwent:_The_Witcher_Card_Game The_Cycle:_Frontier"
+set ttvdropbot_autoclaim=true
+ttvdropbot-v2.exe
+timeout /t 10
+goto start
+```
+
 Linux 及 MacOS 下可以建立 .sh 脚本，并使用 sh 启动（可能需要先 `chmod +x ttvdropbot-v2` 增加执行权限）：
 
 ``` shell
