@@ -32,8 +32,8 @@ jobs:
           repository: 'cyberofficial/TTVDropBot'
       - name: Patch
         run: |
-          sed -i 's/await CheckVersion/\/\/ await CheckVersion/g' index.ts
-          sed -i 's/import CheckVersion/\/\/ import CheckVersion/g' index.ts
+          sed -i 's/await CheckVersion/\/\/ await CheckVersion/g' src/index.ts
+          sed -i 's/import CheckVersion/\/\/ import CheckVersion/g' src/index.ts
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
