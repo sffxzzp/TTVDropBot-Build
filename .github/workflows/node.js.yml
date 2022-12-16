@@ -54,7 +54,7 @@ jobs:
           arch: ${{ matrix.arch }}
           node-version: ${{ matrix.node-version }}
           os: ${{ matrix.os }}
-          options: -C GZip
+          options: -C Brotli
           upload: false
       - name: Upload ${{ steps.pkg.outputs.artifact-key }}
         uses: actions/upload-artifact@v3
