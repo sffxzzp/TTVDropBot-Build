@@ -1,5 +1,15 @@
 # TTVDropBot-Build
 
+## About this build
+
+Currently using [PockySweet/Enhanced-TTVDropBot](https://github.com/PockySweet/Enhanced-TTVDropBot).
+
+## Docker build
+
+[Docker Repo](https://ghcr.io/sffxzzp/ttvdropbot-build)
+
+Only `linux-x64` and `linux-arm64`, and I think it is enough for most use cases.
+
 ## EN
 
 [TTVDropBot](https://github.com/PockySweet/Enhanced-TTVDropBot) builds of other architectures and systems.
@@ -14,8 +24,6 @@ Now supports:
 * macos-arm64
 
 The binary files you may want to download is in [Here](https://nightly.ore-imo.tk/TTVDropBot-Build).
-
-
 
 ## CN
 
