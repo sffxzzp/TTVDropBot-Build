@@ -2,9 +2,10 @@
 
 ## EN
 
-[TTVDropBot](https://github.com/Zaarrg/TTVDropBot) builds of other architectures and systems.
+[TTVDropBot](https://github.com/PockySweet/Enhanced-TTVDropBot) builds of other architectures and systems.
 
 Now supports:
+
 * linux-x64
 * linux-arm64
 * win-x64
@@ -14,11 +15,14 @@ Now supports:
 
 The binary files you may want to download is in [Here](https://nightly.ore-imo.tk/TTVDropBot-Build).
 
+
+
 ## CN
 
-[TTVDropBot](https://github.com/Zaarrg/TTVDropBot) 在各系统和架构下的构建。
+[TTVDropBot](https://github.com/PockySweet/Enhanced-TTVDropBot) 在各系统和架构下的构建。
 
 现支持：
+
 * linux-x64
 * linux-arm64
 * win-x64
@@ -41,6 +45,7 @@ ttvdropbot-v2.exe
 ```
 
 自动重启版
+
 ``` batch
 @echo off
 :start
@@ -61,20 +66,21 @@ export NODE_TLS_REJECT_UNAUTHORIZED=0
 ```
 
 带判断的用法，可以切换 displayless 模式，带自动重启
+
 ``` shell
 #/bin/bash
 while true;
 do
-	count=`ps -e | grep "ttvdropbot" | grep -v grep | wc -l`
-	if [ $? -eq 0 ]; then
-		export NODE_TLS_REJECT_UNAUTHORIZED=0
-		if [ $1 ]; then
-			export ttvdropbot_displayless=true
-			export ttvdropbot_games="Warframe Tom_Clancy's_Rainbow_Six_Siege Don't_Starve_Together Humankind Roller_Champions PAYDAY_2 The_Elder_Scrolls_Online Gwent:_The_Witcher_Card_Game The_Cycle:_Frontier"
-			export ttvdropbot_autoclaim=true
-		fi
-		./ttvdropbot
-	fi
-	sleep 10
+    count=`ps -e | grep "ttvdropbot" | grep -v grep | wc -l`
+    if [ $? -eq 0 ]; then
+        export NODE_TLS_REJECT_UNAUTHORIZED=0
+        if [ $1 ]; then
+            export ttvdropbot_displayless=true
+            export ttvdropbot_games="Warframe Tom_Clancy's_Rainbow_Six_Siege Don't_Starve_Together Humankind Roller_Champions PAYDAY_2 The_Elder_Scrolls_Online Gwent:_The_Witcher_Card_Game The_Cycle:_Frontier"
+            export ttvdropbot_autoclaim=true
+        fi
+        ./ttvdropbot
+    fi
+    sleep 10
 done
 ```
