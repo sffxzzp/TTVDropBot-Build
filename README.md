@@ -23,7 +23,7 @@ Now supports:
 * macos-x64
 * macos-arm64
 
-The binary files you may want to download is in [Here](https://nightly.ore-imo.tk/TTVDropBot-Build).
+The binary files you may want to download is in [Here](https://nightly.kanojo.pp.ua/TTVDropBot-Build).
 
 ## CN
 
@@ -38,7 +38,7 @@ The binary files you may want to download is in [Here](https://nightly.ore-imo.t
 * macos-x64
 * macos-arm64
 
-构建好的二进制文件在 [这里](https://nightly.ore-imo.tk/TTVDropBot-Build) 下载。
+构建好的二进制文件在 [这里](https://nightly.kanojo.pp.ua/TTVDropBot-Build) 下载。
 
 ### 小提示
 
